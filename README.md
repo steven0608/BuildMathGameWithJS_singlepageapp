@@ -1,6 +1,6 @@
 # A fun Math Game 
 demo: https://mental-math-with-matt-n-steve.herokuapp.com/   
-Please also checkout the scordboard to see if you are on our top ten list   
+Please also checkout the scoreboard to see if you are on our top ten list   
 Have fun!!
 
 Group Project: Steven Chen and Matt Zuzolo
