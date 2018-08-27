@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Mental Math</title>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Graduate" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/png">
+    <audio src="mp3/correct.mp3" id="correct"></audio>
+    <audio src="mp3/wrong.mp3" id="wrong"></audio>
+    <audio src="mp3/gameOver.mp3" id="gameOver"></audio>
+    <audio src="mp3/winner.mp3" id="winner"></audio>
+  </head>
+
+  <body>
+
+    <div id="content-container">
+    <div id="landing-container">
+      <h1 id="game-title">Mental Math</h1>
+      <form id="login-form">
+        <input class="more-buttons button-login" id="login-field" placeholder="Enter username"></input>
+        <input id="enter" type="submit" value="Login" style="display: none"></input>
+        <button class="more-buttons button-login" id="login-submit-button" type="button" value="Login">Login</button>
+      </form>
+
+      <button class="more-buttons button-login" id="home-scoreboard-button" type="button" value="Login">Leaderboard</button>
+
+    </div>
+
+    <div id="gameplay-container" class="container">
+        <div id="timer-container"></div>
+        <div id="question-answer-container">
+          <div id="question-container"></div>
+          <div id="answer-container"></div>
+          <div id="correct-answer-counter-container"></div>
+          <div id="heart-container"></div>
+          <div id="post-game-option-container"></div>
+        </div>
+    </div>
+
+    </div>
+    <script src="src/game.js" charset="utf-8"></script>
+    <script src="src/user.js" charset="utf-8"></script>
+    <script src="src/index.js" charset="utf-8"></script>
+  </body>
+</html>

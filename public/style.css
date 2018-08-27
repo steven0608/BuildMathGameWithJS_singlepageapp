@@ -1,0 +1,108 @@
+/*"Global" styling*/
+
+* {
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #ff4e47;
+}
+
+div {
+  background: transparent;
+}
+body {
+padding: 0;
+margin: 0;
+}
+.more-buttons {
+  /*Matt makes terrible class names!!!*/
+  /*THESE ARENT EVEN ALL BUTTONS~!!*/
+  background-color: white;
+  color: #ff4e47;
+  font-size: 2.5rem;
+  border-radius:.4rem;
+  padding: 1%;
+  border: none;
+  margin: .8rem;
+}
+
+
+
+/*Landing view*/
+
+#landing-container {
+  font-size: 3.75rem;
+  color: white;
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  top: 15%;
+  text-align: center;
+}
+
+
+
+/*Gameplay view*/
+
+#timer-display {
+  font-size: 5rem;
+  font-family: 'Graduate', cursive;
+  color: white;
+  margin: 0;
+  /* margin-bottom: 0.5rem; */
+}
+
+#question-answer-container{
+  font-size: 6.5rem;
+  color: white;
+  position: absolute;
+  width: 100%;
+  /* top: 15%; */
+  /* margin:0; */
+  text-align: center;
+  height: -30%
+}
+
+#question-text{
+  margin: 0;
+}
+
+#answer-form{
+  margin: 0;
+}
+#correct-answer-counter-container{
+  font-size: 2rem;
+  margin-bottom: -10%;
+}
+
+.hearts {
+  font-size: 6rem;
+  padding: 0.75%;
+  margin-top: -25%;
+}
+
+#post-game-option-container {
+  margin-top: 10%;
+}
+
+
+
+/*Leaderboard view*/
+
+#leaderboard-container {
+  font-size: 2.75rem;
+  color: white;
+  text-align: center;
+}
+
+#leaderboard-headline {
+  text-decoration: underline;
+  margin-bottom: 5%;
+}
+
+#leaderboard-list-container {
+  font-weight: 300;
+  margin-top: -03%;
+  margin-left: 30%;
+  margin-right: 10%;
+  text-align: left;
+  text-justify: auto;
+}
